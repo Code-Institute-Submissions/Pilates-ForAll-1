@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilates for All</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            padding: 50px;
+            background-color: #333;
+            color: white;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            padding: 20px;
+            background: white;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        form input {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        form button {
+            padding: 10px;
+            font-size: 1em;
+            background-color: #333;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pilates for All</h1>
+        <img src="https://unsplash.com/photos/woman-in-black-tank-top-and-black-pants-doing-yoga-mSJsiQCm6og?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash" alt="Pilates" style="width:100%; height:auto;">
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>The History of Pilates</h2>
+            <p>Pilates was developed in the early 20th century by Joseph Pilates. It was initially used as a rehabilitation method for injured soldiers and dancers. Over the years, it has evolved into a popular fitness regime that focuses on core strength, flexibility, and overall body awareness.</p>
+        </div>
+        <div class="content">
+            <h2>Why Pilates is Good for You</h2>
+            <p>Pilates offers numerous benefits including improved posture, increased flexibility, and enhanced mental awareness. It is a low-impact exercise that can be adapted to suit all fitness levels, making it accessible to everyone. Regular practice can lead to better overall health and well-being.</p>
+        </div>
+        <div class="content">
+            <h2>How to Schedule a Class with Us</h2>
+            <p>Scheduling a class with us is easy! Simply visit our website, choose a class that fits your schedule, and sign up. Our experienced instructors are here to guide you through each session, ensuring you get the most out of your Pilates practice. We look forward to seeing you in class!</p>
+        </div>
+        <div class="content">
+            <h2>Contact Us</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <input type="text" name="lastname" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Follow us on:</p>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
+
